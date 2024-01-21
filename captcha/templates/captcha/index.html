@@ -5,6 +5,24 @@
     <title>Log In</title>
 </head>
 <body>
+<div class="logins">
+    <label for="username">Username:</label>
+    <input type="text" id="username"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password"><br><br>
+</div>
+<div class="Captcha">
+    <form></form>
+    <label for="captcha">Captcha:</label>
+    {% if captcha_completed %}
+        <input type="checkbox" id="captcha" checked disabled><br><br>
+    {% else %}
+        <input type="checkbox" id="captcha" onclick="location.href='{% url 'solvecaptcha' %}'"><br><br>
+    {% endif %}
+</div>
+<div class="submit">
+    <input type="submit" value="Log In">
+</div>
 
 </body>
 </html>

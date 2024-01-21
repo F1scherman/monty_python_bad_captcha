@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dbc59cb-e422-45a7-99b4-1a4102cb4aef" name="Changes" comment="Following a Django tutorial getting some initial setup done">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/captcha/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/captcha/templates/captcha/index.html" afterDir="false" />
+    <list default="true" id="5dbc59cb-e422-45a7-99b4-1a4102cb4aef" name="Changes" comment="More setup done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/captcha/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/captcha/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/captcha/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha/templates/captcha/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/captcha/templates/captcha/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/captcha/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/captcha/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/captcha/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -31,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
@@ -100,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705862554689</updated>
-      <workItem from="1705862585149" duration="1921000" />
+      <workItem from="1705862585149" duration="5038000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -118,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705863451166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="More setup done">
+      <option name="closed" value="true" />
+      <created>1705864734495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705864734495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Following a Django tutorial getting some initial setup done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Following a Django tutorial getting some initial setup done" />
+    <MESSAGE value="More setup done" />
+    <option name="LAST_COMMIT_MESSAGE" value="More setup done" />
   </component>
 </project>
